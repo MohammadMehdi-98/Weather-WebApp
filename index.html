@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row offset-sm-1">
+            <!-- Header part -->
+            <section class="header col-md-4 col-sm-10 ">
+                <h1 id="h1">Javascript Weather App</h1>
+            </section>
+
+            <section class="main col-md-7 col-sm-10  ">
+                <!-- input section -->
+                <section class="inputs">
+                    <input type="submit" value="submit" id="add">
+                    <input type="text" dir="rtl" placeholder="Enter the city's name here..." id="cityInput">
+                  
+                </section>
+
+                <!-- Display section -->
+                <section class="display">
+                    <div class="wrapper">
+                        <p id="cityoutput">:اسم شهر</p>
+                        <p id="description">:وضعیت هوا</p>
+                        <p id="temp">:دما</p>
+                        <p id="wind">:سرعت باد</p>
+                        <p id="humidity">:رطوبت</p>
+                        <p id="coordinates">:مختصات جغرافیایی</p>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+    </div>
+
+ 
+<script src="./script.js"></script>
+</body>
+
+</html>
