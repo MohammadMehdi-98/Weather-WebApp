@@ -46,7 +46,7 @@ Follow these steps to set up the app:
 
 ## Example Demo
 
-You can see a live demo of the Weather App [here]([https://www.example.com](https://mohammadmehdi-98.github.io/weather-webapp/))
+You can see a live demo of the Weather App [here](https://mohammadmehdi-98.github.io/weather-webapp/)
 
 ## Dependencies
 
